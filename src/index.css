@@ -8,28 +8,27 @@ body,
 .content {
   height: 100%;
   width: 100%;
-  font-family: "Source Sans Pro", sans: serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-.app{
+.app {
   display: flex;
   position: relative;
-
 }
 
 /* scroll bar */
 ::-webkit-scrollbar {
-width: 10px
+  width: 10px;
 }
 /* track */
 ::-webkit-scrollbar-track {
-  background : #e0e0e0;
+  background: #e0e0e0;
 }
 /* handle */
-::-webkit-scrollbar-thumb{
-background: #888
+::-webkit-scrollbar-thumb {
+  background: #888;
 }
 /* handle on hover */
-::-webkit-scrollbar-track:hover{
+::-webkit-scrollbar-track:hover {
   background: #555;
 }
