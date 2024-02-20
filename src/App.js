@@ -8,6 +8,8 @@ import Sidebar from "./global/Sidebar";
 import { useState } from "react";
 import Team from "./scenes/Team/Team";
 import Contacts from "./scenes/Contacts/Contacts";
+import Invoices from "./scenes/Invoices/Invoices";
+
 function App() {
   const [theme, colorMode] = useMode();
   const [isSidebar, setIsSidebar] = useState(true);
@@ -23,6 +25,7 @@ function App() {
               <Route path="/" element={<Dashboard />} />
               <Route path="/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />
+              <Route path="/invoices" element={<Invoices />} />
             </Routes>
           </main>
         </div>

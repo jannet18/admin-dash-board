@@ -138,7 +138,7 @@ function Sidebar() {
             />
             <Item
               title="Contacts Information"
-              to="/contants"
+              to="/contacts"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
