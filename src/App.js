@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import Dashboard from "./scenes/Dashboard";
 import Sidebar from "./global/Sidebar";
 import { useState } from "react";
+import Team from "./scenes/Team/Team";
 function App() {
   const [theme, colorMode] = useMode();
   const [isSidebar, setIsSidebar] = useState(true);
@@ -19,7 +20,7 @@ function App() {
             <Topbar />
             <Routes>
               <Route path="/" element={<Dashboard />} />
-              <Route path="/" element={<Dashboard />} />
+              <Route path="/team" element={<Team />} />
             </Routes>
           </main>
         </div>
