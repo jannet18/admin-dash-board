@@ -5,6 +5,7 @@ import "react-pro-sidebar/dist/css/styles.css";
 import { Box, IconButton, Typography, useTheme } from "@mui/material";
 import { Link } from "react-router-dom";
 import { tokens } from "../theme";
+import profile from "../data/profile.jpeg";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import PeopleOutlinedIcon from "@mui/icons-material/PeopleOutlined";
 import ContactsOutlinedIcon from "@mui/icons-material/ContactsOutlined";
@@ -91,10 +92,10 @@ function Sidebar() {
             <Box mb="25px">
               <Box display="flex" justifyContent="center" alignItems="center">
                 <img
-                  src=""
+                  src={profile}
                   alt="Profile-user"
-                  width="100px"
-                  height="100px"
+                  width="80px"
+                  height="80px"
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>
