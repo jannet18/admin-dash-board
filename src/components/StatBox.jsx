@@ -1,7 +1,8 @@
-import { useTheme } from "@mui/material";
+import { Box, Typography, useTheme } from "@mui/material";
 import ProgressCircle from "./ProgressCircle";
 
 import React from "react";
+import { tokens } from "../theme";
 
 const StatBox = ({ title, subtitle, increase, icon, progress }) => {
   const theme = useTheme();
