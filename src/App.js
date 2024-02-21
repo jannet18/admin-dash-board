@@ -11,6 +11,7 @@ import Contacts from "./scenes/Contacts/Contacts";
 import Invoices from "./scenes/Invoices/Invoices";
 import Form from "./scenes/Form/Form";
 import Calendar from "./scenes/Calendar/Calendar";
+import Faq from "./scenes/Faq/Faq";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -31,6 +32,7 @@ function App() {
               <Route path="/invoices" element={<Invoices />} />
               <Route path="/form" element={<Form />} />
               <Route path="/calendar" element={<Calendar />} />
+              <Route path="/faq" element={<Faq />} />
             </Routes>
           </main>
         </div>
