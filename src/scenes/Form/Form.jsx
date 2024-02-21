@@ -88,11 +88,11 @@ const Form = () => {
                   fullWidth
                   variant="filled"
                   type="text"
-                  label="email"
+                  label="Email"
                   onBlur={handleBlur}
                   onChange={handleChange}
                   value={values.email}
-                  name="Email"
+                  name="email"
                   error={!!touched.email && !!errors.email}
                   sx={{ gridColumn: "span 4" }}
                 />
