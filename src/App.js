@@ -9,6 +9,7 @@ import { useState } from "react";
 import Team from "./scenes/Team/Team";
 import Contacts from "./scenes/Contacts/Contacts";
 import Invoices from "./scenes/Invoices/Invoices";
+import Form from "./scenes/Form/Form";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -26,6 +27,8 @@ function App() {
               <Route path="/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/invoices" element={<Invoices />} />
+              <Route path="/invoices" element={<Invoices />} />
+              <Route path="/form" element={<Form />} />
             </Routes>
           </main>
         </div>

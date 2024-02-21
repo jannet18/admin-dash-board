@@ -1,6 +1,6 @@
 import React from "react";
-import { Box, Typography, colors, useTheme } from "@mui/material";
-import { DataGrid, GridToolbar } from "@mui/x-data-grid";
+import { Box, Typography, useTheme } from "@mui/material";
+import { DataGrid } from "@mui/x-data-grid";
 import { tokens } from "../../theme.js";
 import { mockDataInvoices } from "../../data/mockData.js";
 import Header from "../../components/Header.jsx";
